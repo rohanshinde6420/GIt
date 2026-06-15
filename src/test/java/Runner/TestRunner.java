@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         glue ="stepdefinition",
         dryRun = false,
         plugin ={"pretty","html:target/cucumber-reports.html"},
-        tags ="@123"
+        tags ="@xyz"
 
 )
 
